@@ -1,0 +1,262 @@
+@import "../variables.scss";
+
+.section-custom1 {
+  background: none;
+  height: 100%;
+}
+
+////section 2
+
+.para-border {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(#2ec4b8 0%, #6078ea 100%);
+  padding: 15px;
+  border-radius: 4px;
+  font-family: StagSans;
+}
+.section-2-row {
+  padding: 8rem 0;
+  font-family: StagSans;
+}
+
+//section 3
+
+.section-custom3 {
+  padding: 0rem 10rem 5rem 10rem;
+}
+
+.card-img-top {
+  transform: translatex(58%);
+  width: 18vw;
+  height: 15vw;
+  object-fit: cover;
+}
+.card {
+  background-color: #f9f9ff;
+  border: none;
+}
+.card h2 {
+  margin: 12px 0px;
+}
+.card h2,
+.section-custom3 h1 {
+  color: $headingText;
+}
+.card-title {
+  color: #1d5aa6;
+  font-family: StagSans;
+  font-size: 22px;
+  letter-spacing: 1.76px;
+}
+.card-desig {
+  color: #1d5aa6;
+  font-family: StagSans;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+.card-text {
+  font-family: StagSans;
+  font-size: 15px;
+  line-height: 20px;
+}
+.app-btn-primary {
+  background-image: linear-gradient(#2ec4b8 0%, #6078ea 100%);
+  color: #ffffff;
+}
+
+//section 4
+.section-custom4 {
+  padding: 0rem 10rem;
+}
+
+.section-custom4 h1,
+.section-custom5 h1 {
+  color: $headingText;
+  margin-bottom: 3rem;
+}
+.transplant-ul {
+  list-style-image: url("../assets/images/hospital\ \(2\)\ copy\ 3.png");
+}
+
+//section 5
+.section-custom5 {
+  padding: 2rem 10rem 2rem 10rem;
+}
+.immune-details {
+  margin: 2rem 1.5rem;
+  padding: 4px 4px;
+  border: 1px solid #e5eaff;
+  border-radius: 4px;
+  box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+}
+.immune-details img {
+  padding: 20px 8px;
+}
+
+.custom {
+  border: 1px solid black;
+}
+#main {
+  margin: 50px 0;
+}
+
+#main #faq .card {
+  margin-bottom: 30px;
+  border: 0;
+}
+
+#main #faq .card .card-header {
+  border: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  border-radius: 2px;
+  padding: 0;
+}
+
+#main #faq .card .card-header .btn-header-link {
+  color: #1d5aa6;
+  font-family: StagSans;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  display: block;
+  text-align: left;
+  background: #fff;
+  padding: 20px;
+}
+
+#main #faq .card .card-header .btn-header-link:after {
+  content: "\f107";
+  color: #1d5aa6;
+  font-family: StagSans;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  font-weight: 900;
+  float: right;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed {
+  background: #fff;
+  color: #1d5aa6;
+  font-family: StagSans;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed:after {
+  content: "\f106";
+}
+
+#main #faq .card .collapsing {
+  background: #fff;
+  line-height: 30px;
+  font-family: StagSans;
+}
+
+#main #faq .card .collapse {
+  border: 0;
+}
+
+#main #faq .card .collapse.show {
+  background: #fff;
+  line-height: 30px;
+  color: #222;
+  font-family: StagSans;
+}
+// section 7
+.section-custom7 h1 {
+  color: $headingText;
+  margin-bottom: 3rem;
+  font-family: StagSans;
+  letter-spacing: 1.28px;
+}
+.section-custom7 {
+  padding: 0rem 10rem 1rem 10rem;
+}
+.section-custom7 p {
+  font-family: StagSans;
+  font-size: 15px;
+  line-height: 21px;
+  width: 609px;
+}
+
+.carousel-inner > .carousel-item {
+  height: 400px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  cursor: pointer;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-image: none;
+  cursor: pointer;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 17px;
+  color: black;
+  cursor: pointer;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 17px;
+  color: black;
+  cursor: pointer;
+}
+
+.container-fluid {
+  padding: 0px 0px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container-custom {
+  display: flex;
+}
+
+.imgBox {
+  display: flex;
+}
+.imgBox img {
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.cara-name,
+.cara-type {
+  color: black;
+  padding-top: 0.5rem;
+}
+.cara-para {
+  font-family: StagSans;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 21px;
+  width: 410px;
+  margin: 2rem 1rem;
+}
+#slider-box {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+  width: 50vw;
+  transform: translateX(25%) translateY(80%);
+}
+.btn-testimonial {
+  margin-bottom: 2rem;
+}
+//footer
+
+.section-custom8 {
+  background-color: black;
+}
